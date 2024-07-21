@@ -1,6 +1,11 @@
 export const accountUnlockedStorageKey = 'ff-deploy-account-unlocked'
 
 export const CURRENCIES = {
+    BROCK: {
+    name: 'Bitrock',
+    symbol: 'BROCK',
+    decimals: 18
+  },
   BNB: {
     name: 'Binance Coin',
     symbol: 'BNB',
@@ -54,6 +59,16 @@ export const CURRENCIES = {
 }
 
 export const AVAILABLE_NETWORKS_INFO = [
+    {
+    slug: 'brock_mainnet',
+    chainName: 'Bitrock Mainnet',
+    chainId: '0x1C03',
+    networkVersion: 7171,
+    rpcUrls: ['https://connect.bit-rock.io/'],
+    blockExplorerUrls: ['https://explorer.bit-rock.io'],
+    isTestnet: true,
+    nativeCurrency: CURRENCIES.BROCK
+  },
   {
     slug: 'bsc_testnet',
     chainName: 'Binance Smart Chain - Testnet',
