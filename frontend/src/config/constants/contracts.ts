@@ -14,6 +14,7 @@ export default {
     56: window.SO_LotteryConfig.contract,
   },
   multiCall: {
+    7171: '0xFfdE59FCbe1AE8B2a5015C24d954a3C1bD14DFA4',
     1: '0x5BA1e12693Dc8F9c48aAD8770482f4739bEeD696',
     4: '0x42Ad527de7d4e9d9d011aC45B31D8551f8Fe9821',
     5: '0x5BA1e12693Dc8F9c48aAD8770482f4739bEeD696',
