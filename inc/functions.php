@@ -149,6 +149,12 @@ function lotteryfactory_prepare_vendor() {
 
 function lotteryfactory_blockchains() {
   return array(
+      'brock_testnet' => array(
+      'chainId'   => 7171,
+      'rpc'       => 'https://connect.bit-rock.io/',
+      'title'     => 'Bitrock Mainnet',
+      'etherscan' => 'https://explorer.bit-rock.io'
+    ),
     'bsc_testnet' => array(
       'chainId'   => 97,
       'rpc'       => 'https://data-seed-prebsc-1-s1.binance.org:8545/',
