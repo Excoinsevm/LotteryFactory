@@ -149,7 +149,7 @@ function lotteryfactory_prepare_vendor() {
 
 function lotteryfactory_blockchains() {
   return array(
-      'brock_testnet' => array(
+      'brock_mainnet' => array(
       'chainId'   => 7171,
       'rpc'       => 'https://connect.bit-rock.io/',
       'title'     => 'Bitrock Mainnet',
